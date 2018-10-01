@@ -1,0 +1,31 @@
+==10183== Memcheck, a memory error detector
+==10183== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==10183== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==10183== Command: ./app/shell-app
+==10183== 
+Averaged sensor reading: 10
+==10183== Conditional jump or move depends on uninitialised value(s)
+==10183==    at 0x40270B: main (main.cpp:9)
+==10183== 
+==10183== 
+==10183== HEAP SUMMARY:
+==10183==     in use at exit: 72,748 bytes in 3 blocks
+==10183==   total heap usage: 7 allocs, 4 frees, 74,981 bytes allocated
+==10183== 
+==10183== 44 (24 direct, 20 indirect) bytes in 1 blocks are definitely lost in loss record 2 of 3
+==10183==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==10183==    by 0x4029C8: AnalogSensor::Read() (AnalogSensor.cpp:16)
+==10183==    by 0x40263E: main (main.cpp:7)
+==10183== 
+==10183== LEAK SUMMARY:
+==10183==    definitely lost: 24 bytes in 1 blocks
+==10183==    indirectly lost: 20 bytes in 1 blocks
+==10183==      possibly lost: 0 bytes in 0 blocks
+==10183==    still reachable: 72,704 bytes in 1 blocks
+==10183==         suppressed: 0 bytes in 0 blocks
+==10183== Reachable blocks (those to which a pointer was found) are not shown.
+==10183== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10183== 
+==10183== For counts of detected and suppressed errors, rerun with: -v
+==10183== Use --track-origins=yes to see where uninitialised values come from
+==10183== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
