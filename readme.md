@@ -1,6 +1,6 @@
 # C++ Boilerplate
 [![Build Status](https://travis-ci.com/zzimits/valgrind_exercise.svg?branch=valgrind_exercise)](https://travis-ci.com/zzimits/valgrind_exercise)
-[![Coverage Status](https://coveralls.io/repos/github/zzimits/valgrind_exercise.svg?branch=valgrind_exercise)](https://coveralls.io/github/zzimits/valgrind_exercise?branch=valgrind_exercise)
+[![Coverage Status](https://coveralls.io/repos/github/zzimits/valgrind_exercise/badge.svg?branch=valgrind_exercise)](https://coveralls.io/github/zzimits/valgrind_exercise?branch=valgrind_exercise)
 ---
 
 ## Overview
