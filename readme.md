@@ -1,5 +1,5 @@
 # C++ Boilerplate
-[![Build Status](https://travis-ci.org/zzimits/valgrind_exercise.svg?branch=valgrind_exercise)](https://travis-ci.org/zzimts/valgrind_exercise)
+[![Build Status](https://travis-ci.com/zzimits/valgrind_exercise.svg?branch=valgrind_exercise)](https://travis-ci.com/zzimits/valgrind_exercise)
 [![Coverage Status](https://coveralls.io/repos/github/zzimits/valgrind_exercise/badge.svg?branch=valgrind_exercise)](https://coveralls.io/github/zzimits/valgrind_exercise?branch=valgrind_exercise)
 ---
 
